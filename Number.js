@@ -44,7 +44,7 @@ let excludeJson = (data, exclude_field) => (Object.keys(data)
 
 let number = (text, destination) => {
     let result_text
-    if (!text || !Object.keys(numebrs_list).includes(destination))
+    if (!text || !Object.keys(numbers_list).includes(destination))
         return text
     else{
         result_text = text
